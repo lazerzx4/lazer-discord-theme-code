@@ -1,0 +1,94 @@
+/**
+ * @name lazer-theme-code
+ * @version Auto Update
+ * @author Lazerzx4
+ * @description free discord theme code  | Lazer : کد تم دیسکورد سازنده
+ * @website soon
+ * @source soon
+ * @invite soon 
+*/
+@import url(//plusinsta.xyz/discord-plus/DiscordPlus-source.theme.css);
+
+/* Font import */
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
+:root {
+/* ایمیج بک گراند برای صفحه اصلی و بزرگ تم اسفاده میشه که
+   می توانید ان را  با این حرفها ادیت کنید و
+   ()'s'. لینک و یا یو ار ال ان را بین ایموجی های بگذارید */
+--dplus-background: url(https://imgur.com/a/WulASnx);
+
+    /* رنگی که برای انرید و ناتیفیکیشن مسیج ها میخواهید */
+--dplus-accent-ui: #ff0000;
+--dplus-accent-ui-hover: #ff0000;
+
+/* Fonts */
+--dplus-font-ui: 'Poppins';
+--dplus-font-body: 'Roboto';
+--dplus-font-header: 'Righteous';
+
+/* اندازه گوشه های گرد، اندازه گیری شده در شعاع پیکسل
+    آواتار/سرور را برای حلقه ها روی 50% تنظیم کنید
+    شعاع رابط کاربری باید بر حسب پیکسل باش */
+   --dplus-radius-ui: 10px;
+   --dplus-radius-avatar: 20%;
+   --dplus-radius-server: 20%;
+
+   /* The Home icon */
+--dplus-icon-home-dark: url(https://imgur.com/a/mzfp2UZ);
+--dplus-icon-home-light: url(https://imgur.com/a/mzfp2UZ);
+
+/* Icon sizes */
+--dplus-icon-avatar-chat: 64px;
+--dplus-icon-avatar-list: 32px;
+--dplus-icon-avatar-profile: 80px;
+
+--dplus-icon-server-sidebar: 48px;
+--dplus-icon-server-list: 32px;
+
+/* Width of different elements */
+--dplus-channels-width: 240px;
+--dplus-members-width: 240px;
+--dplus-scrollbar-width: 10px;
+
+/* مقدار بلور و یا تار شده بک گراند 100 50 25 . */
+--dplus-blur-scale: 20;
+
+/* Background covers | Explanations below	*/
+--dplus-dark-bgc-ui-base: hsla(0, 0%, 0%, 0.74);
+--dplus-dark-bgc-ui-base-hover: hsla(0, 0%, 0%, 0.82);
+--dplus-dark-bgc-ui-card: hsla(0, 0%, 7%, 0.75);
+--dplus-dark-bgc-ui-card-hover: hsla(0, 0%, 15%, 0.50);
+--dplus-dark-bgc-chatmsg: hsla(0, 0%, 0%, 0.74);
+--dplus-dark-bgc-chatmsg-hover: hsla(0, 0%, 0%, 0.82);
+--dplus-dark-bgc-popout: hsla(0, 0%, 0%, 0.75);
+--dplus-dark-bgc-button: hsla(0, 0%, 15%, 0.50);
+--dplus-dark-bgc-button-hover: hsla(0, 0%, 20%, 0.60);
+--dplus-dark-bgc-server-button: hsla(0, 0%, 15%, 0.50);
+--dplus-dark-bgc-server-button-hover: hsla(0, 0%, 20%, 0.60);
+
+--dplus-light-bgc-ui-base: hsla(0, 0%, 97%, 0.88);
+--dplus-light-bgc-ui-base-hover: hsla(0, 0%, 100%, 0.90);
+--dplus-light-bgc-ui-card: hsla(0, 0%, 93%, 0.75);
+--dplus-light-bgc-ui-card-hover: hsla(0, 0%, 50%, 0.25);
+--dplus-light-bgc-chatmsg: hsla(0, 0%, 97%, 0.88);
+--dplus-light-bgc-chatmsg-hover: hsla(0, 0%, 100%, 0.90);
+--dplus-light-bgc-popout: hsla(0, 0%, 100%, 0.80);
+--dplus-light-bgc-button: hsla(0, 0%, 50%, 0.80);
+--dplus-light-bgc-button-hover: hsla(0, 0%, 40%, 0.50);
+--dplus-light-bgc-server-button: hsla(0, 0%, 95%, 0.75);
+--dplus-light-bgc-server-button-hover: hsla(0, 0%, 100%, 1);
+}
+
+/* توضیحات:
+* bgc مخفف پوشش پس‌زمینه / رنگ است
+* تاریک/نور با موضوع فعال فعلی مطابقت دارد
+* UI-base رابط کاربری اصلی است
+* ii-base-hover هنگام شناور شدن روی عناصر قابل کلیک استفاده می شود
+* UI-card برای کارت هایی است مانند کشف سرور
+* UI-card-hover برای معلق شدن روی کارت ها است
+* chatmsg پیام های موجود در چت و جعبه پیام را کنترل می کند
+* chatmsg-hover برای نگه داشتن ماوس روی یک پیام است
+* پنجره بازشو بر همه پنجره های بازشو مانند منوی زمینه، نمایه ها و غیره تأثیر می گذارد.
+* دکمه سرور روی نمادهای سرور در سمت چپ صفحه تأثیر می گذارد
+* نگه داشتن دکمه سرور بر روی آیکون های سرور تأثیر می گذارد
+*/
